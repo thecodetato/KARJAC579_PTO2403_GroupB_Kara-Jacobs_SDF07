@@ -49,3 +49,60 @@ img {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+.profile-image {
+  float: left;
+  width: calc(33.333% - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.profile {
+  padding: 6rem 0;
+}
+
+.profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile-bio {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  line-height: 1.5;
+}
+
+.profile-user-name {
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.profile-user-settings {
+  margin-top: 2px;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+  float: left;
+  width: calc(66.666% - 2rem);
+}
+
+.profile-stats li:last-of-type {
+  margin-right: 0;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+  font-weight: 600;
+}
