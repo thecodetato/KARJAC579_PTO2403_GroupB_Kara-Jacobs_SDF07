@@ -158,11 +158,18 @@ img {
 /* loader */
 
 .loader {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3rem;
+  width: 3rem;
   margin: 0 auto;
   border: 0.5rem solid gray;
   border-radius: 50%;
   border-bottom-color: transparent;
   animation: loader 450ms linear infinite;
+}
+/*loader animation*/
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
 }
