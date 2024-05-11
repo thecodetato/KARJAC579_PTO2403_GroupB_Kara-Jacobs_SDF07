@@ -58,6 +58,19 @@ img {
   align-items: center;
   margin-right: 4rem;
 }
+.profile-edit-btn {
+  border-radius: 0.1rem;
+  border: 1rem solid white;
+  margin-left: 2rem;
+  padding: 0 3rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.profile-settings-btn {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
 
 .profile-image img {
   border-radius: 50%;
@@ -75,7 +88,7 @@ img {
 
 .profile-bio {
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-top: 3rem;
   line-height: 1.5;
 }
@@ -95,6 +108,18 @@ img {
 .profile-bio {
   float: left;
   width: calc(66.666% - 2rem);
+}
+
+.profile-stats {
+  margin-top: 2rem;
+}
+
+.profile-stats li {
+  display: inline-block;
+  margin-right: 4rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .profile-stats li:last-of-type {
