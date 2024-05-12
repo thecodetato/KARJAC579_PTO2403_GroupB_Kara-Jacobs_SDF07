@@ -75,10 +75,11 @@ img {
 .profile-image img {
   border-radius: 50%;
   border-color: green;
+  border: 14px solid darkgreen;
 }
 
 .profile {
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 .profile::after {
@@ -108,10 +109,11 @@ img {
 .profile-stats,
 .profile-bio {
   float: left;
+  margin-left: 6rem;
 }
 
 .profile-stats {
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .profile-stats li {
