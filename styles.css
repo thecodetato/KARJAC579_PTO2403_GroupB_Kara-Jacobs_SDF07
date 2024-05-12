@@ -13,8 +13,8 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
   min-height: 100vh;
-  background-color: #fafafa;
-  color: #262626;
+  background-color: rgb(240, 237, 237);
+  color: palevioletred;
   padding-bottom: 3rem;
 }
 
@@ -60,7 +60,7 @@ img {
 }
 .profile-edit-btn {
   border-radius: 0.1rem;
-  border: 0.1rem solid gray;
+  border: 0.1rem solid palevioletred;
   margin-left: 1.5rem;
   padding: 0 3rem;
   font-size: 1.3rem;
@@ -70,12 +70,12 @@ img {
 .profile-settings-btn {
   margin-left: 0.8rem;
   font-size: 1.8rem;
+  color: palevioletred;
 }
 
 .profile-image img {
   border-radius: 50%;
-  border-color: green;
-  border: 14px solid darkgreen;
+  border: 14px solid palevioletred;
 }
 
 .profile {
@@ -195,7 +195,7 @@ img {
   height: 3rem;
   width: 3rem;
   margin: 0 auto;
-  border: 0.5rem solid gray;
+  border: 0.5rem solid palevioletred;
   border-radius: 50%;
   border-bottom-color: transparent;
   animation: loader 450ms linear infinite;
